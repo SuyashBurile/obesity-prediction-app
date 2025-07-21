@@ -31,3 +31,8 @@ streamlit run app.py
 - `requirements.txt` — Python dependencies
 - `README.md` — Project documentation
 
+🚀 Live Demo
+
+Check out the live deployed version of the Obesity Category Prediction App here:
+
+🔗 Click to open the app on Streamlit Cloud
