@@ -36,3 +36,4 @@ streamlit run app.py
 Check out the live deployed version of the Obesity Category Prediction App here:
 
 🔗 Click to open the app on Streamlit Cloud
+https://obesity-prediction-app-b3rssec5aax3cnlrhaia9r.streamlit.app/
