@@ -1,4 +1,4 @@
-# 🧠 Obesity Category Prediction App
+# Obesity Category Prediction App
 
 This is a **Machine Learning**-powered web application built using **Streamlit** that predicts a person's **Obesity Category** based on key physical attributes and lifestyle metrics.
 
@@ -10,25 +10,25 @@ This is a **Machine Learning**-powered web application built using **Streamlit**
 
 ---
 
-## 🚀 Live App Deployment
+## Live App Deployment
 
-👉 **Try the app here**: [Obesity Prediction App](https://obesity-prediction-app-b3rssec5aax3cnlrhaia9r.streamlit.app/)
+ **Try the app here**: [Obesity Prediction App](https://obesity-prediction-app-b3rssec5aax3cnlrhaia9r.streamlit.app/)
 
 Deployed using **Streamlit Cloud**, with **CI/CD** enabled via Git integration — every time you push to the `main` branch, the app redeploys automatically ✅
 
 ---
 
-## 📦 Features
+##  Features
 
-- 📥 User inputs: Age, Gender, Height, Weight, BMI, Physical Activity Level
-- 🧠 Trained ML Model: Random Forest Classifier (with GridSearchCV tuning)
-- 📊 Feature importance & data visualization using Seaborn & Matplotlib
-- ✅ High accuracy with optimized metrics (precision, recall, F1-score)
-- 🌐 Deployed via Streamlit Cloud with automated CI/CD
+-  User inputs: Age, Gender, Height, Weight, BMI, Physical Activity Level
+-  Trained ML Model: Random Forest Classifier (with GridSearchCV tuning)
+-  Feature importance & data visualization using Seaborn & Matplotlib
+-  High accuracy with optimized metrics (precision, recall, F1-score)
+-  Deployed via Streamlit Cloud with automated CI/CD
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 | Tool              | Purpose                                 |
 |-------------------|-----------------------------------------|
@@ -42,7 +42,7 @@ Deployed using **Streamlit Cloud**, with **CI/CD** enabled via Git integration �
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ─ app.py # Streamlit app
 
