@@ -6,7 +6,7 @@ import pandas as pd
 import streamlit as st
 
 # Load model
-pickle_in = open("obesity_model.pkl", "rb")
+pickle_in = open("final_obesity_model.pkl", "rb")
 classifier = pickle.load(pickle_in)
 
 # Prediction function
@@ -28,7 +28,7 @@ def main():
     st.markdown(
         """
         <style>
-        .main { background-color: #f8f9fa; }
+        .main { background-color: #000000; }
         .title-box {
             background-color: #2c3e50;
             padding: 20px;
@@ -37,13 +37,13 @@ def main():
             margin-bottom: 30px;
         }
         .title-box h2 {
-            color: white;
+            color: black;
             margin: 0;
             font-family: 'Segoe UI', sans-serif;
         }
         .stTextInput > div > label {
             font-weight: 600;
-            color: #333;
+            color: black;
         }
         </style>
         <div class="title-box">
@@ -56,8 +56,8 @@ def main():
     st.subheader("Enter the following details:")
 
     Age = st.text_input("Age (e.g., 25)")
-    Gender = st.text_input("Gender (0 = Female, 1 = Male)")
-    Height = st.text_input("Height in cm (e.g., 170)")
+    Gender = st.text_input("Gender (0 = Male, 1 = Female)")
+    Height = st.text_input("Height in meters")
     Weight = st.text_input("Weight in kg (e.g., 68)")
     BMI = st.text_input("BMI (e.g., 22.5)")
     PhysicalActivityLevel = st.text_input("Physical Activity Level (1–4)")
