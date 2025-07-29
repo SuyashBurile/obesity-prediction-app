@@ -44,9 +44,9 @@ Deployed using **Streamlit Cloud**, with **CI/CD** enabled via Git integration �
 
 ##  Project Structure
 
-─ app.py # Streamlit app
+─ obesity.py # Streamlit app
 
-─ obesity_model.pkl # Trained ML model
+─ final_obesity_model.pkl # Trained ML model
 
 ─ requirements.txt # Project dependencies
 
